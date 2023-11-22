@@ -1,4 +1,5 @@
-public class HotDrink extends BottleOFWater{
+package Task_1;
+public class HotDrink extends BottleOFWater {
     private int temperature;
 
     public HotDrink(String name, int cost, int volume, int temperature) {

@@ -1,3 +1,5 @@
+package Task_1;
+
 public class Product {
     private String name;
     private int cost;

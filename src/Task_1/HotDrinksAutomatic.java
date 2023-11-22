@@ -1,7 +1,9 @@
+package Task_1;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class HotDrinksAutomatic implements VendingMachine{
+public class HotDrinksAutomatic implements VendingMachine {
     private List<Product> productList = new ArrayList<>();
     @Override
     public void initProduct(List<Product> productList) {

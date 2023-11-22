@@ -1,4 +1,6 @@
-public class BottleOFWater extends Product{
+package Task_1;
+
+public class BottleOFWater extends Product {
     private int volume;
     public BottleOFWater(String name, int cost, int volume) {
         super(name, cost);

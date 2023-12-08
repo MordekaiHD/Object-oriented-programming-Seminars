@@ -1,24 +1,14 @@
-package Praktik;
+package Task_5.Model;
 
-public class Stream implements Comparable<Stream> {
-    private int studendId;
+public abstract class User {
     private String firstName;
     private String secondName;
     private String lastName;
 
-    public Student(int studendId, String firstName, String secondName, String lastName) {
-        this.studendId = studendId;
+    public User(String firstName, String secondName, String lastName) {
         this.firstName = firstName;
         this.secondName = secondName;
         this.lastName = lastName;
-    }
-
-    public int getStudendId() {
-        return studendId;
-    }
-
-    public void setStudendId(int studendId) {
-        this.studendId = studendId;
     }
 
     public String getFirstName() {
@@ -47,20 +37,10 @@ public class Stream implements Comparable<Stream> {
 
     @Override
     public String toString() {
-        return "Studentу{" +
-                "studendId=" + studendId +
-                ", firstName='" + firstName + '\'' +
+        return "User{" +
+                "firstName='" + firstName + '\'' +
                 ", secondName='" + secondName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 '}';
-    }
-
-    @Override
-    public int compareTo(Student o) {
-        if (studendId > o.getStudendId())
-            return 1;
-        if (studendId < o.getStudendId())
-            return -1;
-        return 0;
     }
 }

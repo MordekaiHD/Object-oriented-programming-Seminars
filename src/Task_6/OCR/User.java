@@ -1,4 +1,4 @@
-package Task_5.Model;
+package Task_6.OCR;
 
 public abstract class User {
     private String firstName;

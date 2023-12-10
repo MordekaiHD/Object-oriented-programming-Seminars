@@ -1,7 +1,5 @@
 package Task_3;
 
-import Praktik.Student;
-import Praktik.StudentGroupIterator;
 
 import java.util.Iterator;
 import java.util.List;

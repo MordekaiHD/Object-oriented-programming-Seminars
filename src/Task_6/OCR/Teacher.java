@@ -1,9 +1,8 @@
-package Task_5.Model;
-
+package Task_6.OCR;
 public class Teacher extends User{
     private int teacherId;
 
-    public Teacher(String firstName, String secondName, String lastName, int teacherId) {
+    public Teacher(int teacherId, String firstName, String secondName, String lastName) {
         super(firstName, secondName, lastName);
         this.teacherId = teacherId;
     }
@@ -18,9 +17,9 @@ public class Teacher extends User{
 
     @Override
     public String toString() {
-        return "Teacher{" +
-                "teacherId=" + teacherId +
-                "firstName='" + super.getFirstName() + '\'' +
+        return "Studentу{" +
+                "studendId=" + teacherId +
+                ", firstName='" + super.getFirstName() + '\'' +
                 ", secondName='" + super.getSecondName() + '\'' +
                 ", lastName='" + super.getLastName() + '\'' +
                 '}';

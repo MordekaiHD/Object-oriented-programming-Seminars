@@ -1,4 +1,4 @@
-package Task_5.Model;
+package Task_6.OCR;
 
 public class Student extends User{
     private int studentId;
@@ -20,10 +20,9 @@ public class Student extends User{
     public String toString() {
         return "Student{" +
                 "studentId=" + studentId +
-                "firstName='" + super.getFirstName() + '\'' +
+                ", firstName='" + super.getFirstName() + '\'' +
                 ", secondName='" + super.getSecondName() + '\'' +
                 ", lastName='" + super.getLastName() + '\'' +
                 '}';
-
     }
 }
